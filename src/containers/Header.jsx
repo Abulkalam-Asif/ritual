@@ -2,8 +2,8 @@ import React from "react";
 import logo from "../assets/logo.svg";
 import loginIcon from "../assets/headerIcons/login.svg";
 import cartIcon from "../assets/headerIcons/cart.svg";
-import HeaderButton from "../components/HeaderButton";
-import HeaderLink from "../components/HeaderLink";
+
+import { HeaderButton, HeaderLink } from "../components";
 
 function Header() {
   return (

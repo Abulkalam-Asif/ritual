@@ -4,7 +4,7 @@ import pregnancyImage from "../assets/categoriesImages/pregnancy.jpeg";
 import gutHealthImage from "../assets/categoriesImages/gutHealth.jpeg";
 import skinImage from "../assets/categoriesImages/skin.jpeg";
 import proteinImage from "../assets/categoriesImages/protein.jpeg";
-import CategoryCard from "../components/CategoryCard";
+import { CategoryCard } from "../components/";
 import arrowLeft from "../assets/arrowLeft.svg";
 
 const ProductCategoryCards = () => {
@@ -24,7 +24,7 @@ const ProductCategoryCards = () => {
     <>
       <section className="w-full font-primary pt-14 overflow-hidden">
         <div className="max-w-[1170px] flex items-center justify-between w-full mx-auto mb-10 xl:max-w-[934px] lg:max-w-[700px] md:px-4 lg:mb-6">
-          <h2 className="text-2xl font-semibold text-themeBlue lg:text-xl">
+          <h2 className="text-2xl font-medium text-themeBlue lg:text-xl">
             Find Your Ritual
           </h2>
           <div className="flex items-center gap-x-10">

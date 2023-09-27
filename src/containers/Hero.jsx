@@ -1,5 +1,5 @@
 import React from "react";
-import HeroLink from "../components/HeroLink";
+import { HeroLink } from "../components";
 
 const Hero = () => {
   return (

@@ -1,5 +1,10 @@
 import React from "react";
-import { Header, Hero, ProductCategoryCards } from "../containers";
+import {
+  Header,
+  Hero,
+  Introduction,
+  ProductCategoryCards,
+} from "../containers";
 
 function Home() {
   return (
@@ -7,6 +12,7 @@ function Home() {
       <Header />
       <Hero />
       <ProductCategoryCards />
+      <Introduction />
     </>
   );
 }
