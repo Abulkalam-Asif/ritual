@@ -25,6 +25,9 @@ export default {
         primary: ["Roboto", "sans-serif"],
         secondary: ["Times New Roman", "serif"],
       },
+      fontSize: {
+        h2: "2.5rem",
+      },
       width: {
         calcLargest: "calc(100vw - 80px)",
       },
@@ -36,6 +39,9 @@ export default {
       backgroundImage: {
         hero: "url('/src/assets/hero.webp')",
         heroMobile: "url('/src/assets/heroMobile.webp')",
+      },
+      lineHeight: {
+        h2: "3.375rem",
       },
     },
   },
