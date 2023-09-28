@@ -1,9 +1,11 @@
 import React from "react";
-import traceableIcon from "../assets/introductionIcons/traceable.svg";
-import nonGmoIcon from "../assets/introductionIcons/nonGmo.svg";
-import testedIcon from "../assets/introductionIcons/tested.svg";
-import veganIcon from "../assets/introductionIcons/vegan.svg";
-import colorantsIcon from "../assets/introductionIcons/colorants.svg";
+import {
+  traceableIcon,
+  nonGmoIcon,
+  testedIcon,
+  veganIcon,
+  colorantsIcon,
+} from "../assets";
 import { IntroductionItem } from "../components";
 
 const Introduction = () => {

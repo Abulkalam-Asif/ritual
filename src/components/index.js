@@ -6,3 +6,6 @@ export { default as IntroductionItem } from "./IntroductionItem";
 export { default as FeaturedH2 } from "./FeaturedH2";
 export { default as FeaturedP } from "./FeaturedP";
 export { default as Link1 } from "./Link1";
+export { default as FeaturedArticleImage } from "./FeaturedArticleImage";
+export { default as FeaturedArticleText } from "./FeaturedArticleText";
+export { default as FeaturedListItem } from "./FeaturedListItem";

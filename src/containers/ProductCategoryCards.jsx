@@ -1,11 +1,13 @@
 import React, { useRef } from "react";
-import multivitaminImage from "../assets/categoriesImages/multivitamin.jpeg";
-import pregnancyImage from "../assets/categoriesImages/pregnancy.jpeg";
-import gutHealthImage from "../assets/categoriesImages/gutHealth.jpeg";
-import skinImage from "../assets/categoriesImages/skin.jpeg";
-import proteinImage from "../assets/categoriesImages/protein.jpeg";
 import { CategoryCard } from "../components/";
-import arrowLeft from "../assets/arrowLeft.svg";
+import {
+  arrowLeft,
+  multivitaminImage,
+  pregnancyImage,
+  gutHealthImage,
+  skinImage,
+  proteinImage,
+} from "../assets";
 
 const ProductCategoryCards = () => {
   const scrollRef = useRef(null);
