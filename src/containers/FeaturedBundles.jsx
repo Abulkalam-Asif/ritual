@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import {
   FeaturedBundleItem,
   FeaturedBundleModal,
-  FeaturedH2,
+  H2,
   Link1,
 } from "../components";
 import { featuredBImg1, featuredBImg2, featuredBImg3 } from "../assets";
@@ -64,7 +64,7 @@ const FeaturedBundles = () => {
       <section className="w-full px-12 font-primary lg:px-4 pb-20 lg:pb-12">
         <div className="max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full">
           <div className="flex items-center justify-between mb-8 md:mb-6">
-            <FeaturedH2 text={"Featured Bundles"} />
+            <H2 text={"Featured Bundles"} />
             <Link1 text={"Shop All"} />
           </div>
           <div className="flex gap-x-7 md:overflow-scroll md:gap-x-4">

@@ -33,3 +33,10 @@ export { default as savingIcon } from "./featuredImages/saving.svg";
 export { default as moneyBackIcon } from "./featuredImages/moneyBack.svg";
 export { default as shippingIcon } from "./featuredImages/shipping.svg";
 export { default as deliveryIcon } from "./featuredImages/delivery.svg";
+
+// socialIcons
+export { default as facebookIcon } from "./socialIcons/facebook.svg";
+export { default as instagramIcon } from "./socialIcons/instagram.svg";
+export { default as pinterestIcon } from "./socialIcons/pinterest.svg";
+export { default as twitterIcon } from "./socialIcons/twitter.svg";
+export { default as youtubeIcon } from "./socialIcons/youtube.svg";

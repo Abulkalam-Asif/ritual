@@ -5,12 +5,13 @@ import {
   Header,
   Hero,
   Introduction,
+  NewsletterSection,
   ProductCategoryCards,
 } from "../containers";
 import {
   FeaturedArticleImage,
   FeaturedArticleText,
-  FeaturedH2,
+  H2,
   FeaturedListItem,
   FeaturedP,
   Link1,
@@ -39,7 +40,7 @@ function Home() {
           <img src={featuredImg1} alt="featured" />
         </FeaturedArticleImage>
         <FeaturedArticleText>
-          <FeaturedH2 text={"We're not about pseudoscience and half-truths"} />
+          <H2 text={"We're not about pseudoscience and half-truths"} />
           <FeaturedP
             text={
               "From Omega-3 DHA from microalgae to regeneratively-farmed pea protein, our scientists studied diets and genetics to make daily essentials based on what we need."
@@ -52,7 +53,7 @@ function Home() {
       {/* Featured Atricle 2 */}
       <FeaturedAtricle flexOnMobile="md:flex-col-reverse">
         <FeaturedArticleText spacing="right">
-          <FeaturedH2 text={"You deserve traceability"} />
+          <H2 text={"You deserve traceability"} />
           <FeaturedP
             text={
               "We share our sources, studies, and suppliers — daily essentials backed by the first visible supply chain of its kind."
@@ -67,14 +68,14 @@ function Home() {
       </FeaturedAtricle>
 
       <FeaturedBundles />
-      
+
       {/* Featured Atricle 3 */}
       <FeaturedAtricle>
         <FeaturedArticleImage>
           <img src={featuredImg3} alt="featured" />
         </FeaturedArticleImage>
         <FeaturedArticleText>
-          <FeaturedH2 text={"Clean and simple, delivered"} />
+          <H2 text={"Clean and simple, delivered"} />
           <FeaturedP
             text={
               "Meet your Ritual subscription that flexes with you. Easy-to-start. Easy-to-cancel. Our team of scientists and nutritional experts are on a mission to turn your new healthy habit into a Ritual."
@@ -100,6 +101,8 @@ function Home() {
           </ul>
         </FeaturedArticleText>
       </FeaturedAtricle>
+
+      <NewsletterSection />
     </>
   );
 }
