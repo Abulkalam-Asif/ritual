@@ -1,6 +1,7 @@
 import React from "react";
 import {
   FeaturedAtricle,
+  FeaturedBundles,
   Header,
   Hero,
   Introduction,
@@ -65,6 +66,8 @@ function Home() {
         </FeaturedArticleImage>
       </FeaturedAtricle>
 
+      <FeaturedBundles />
+      
       {/* Featured Atricle 3 */}
       <FeaturedAtricle>
         <FeaturedArticleImage>

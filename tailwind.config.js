@@ -27,6 +27,7 @@ export default {
       },
       fontSize: {
         h2: "2.5rem",
+        "1.5xl": "1.375rem",
       },
       width: {
         calcLargest: "calc(100vw - 80px)",

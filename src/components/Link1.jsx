@@ -5,7 +5,7 @@ const Link1 = ({ href = "#", text }) => {
     <>
       <a
         href={href}
-        className="font-primary text-lg font-medium text-themeBlue border-b-2 border-b-themeBlue transition-opacity duration-200 hover:opacity-50 lg:text-base">
+        className="font-primary text-lg font-medium text-themeBlue border-b-2 border-b-themeBlue transition-opacity duration-200 hover:opacity-60 lg:text-base">
         {text}
       </a>
     </>

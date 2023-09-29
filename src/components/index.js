@@ -9,3 +9,5 @@ export { default as Link1 } from "./Link1";
 export { default as FeaturedArticleImage } from "./FeaturedArticleImage";
 export { default as FeaturedArticleText } from "./FeaturedArticleText";
 export { default as FeaturedListItem } from "./FeaturedListItem";
+export { default as FeaturedBundleItem } from "./FeaturedBundleItem";
+export { default as FeaturedBundleModal } from "./FeaturedBundleModal";
