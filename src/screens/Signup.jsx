@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LoginSignupMain } from "../containers";
+import { LoginSignupMain, SubscriptionBenefitsSection } from "../containers";
 import { InputBox, SocialLoginSignup } from "../components";
 import { Link } from "react-router-dom";
 
@@ -82,6 +82,7 @@ const Signup = () => {
           .
         </p>
       </LoginSignupMain>
+      <SubscriptionBenefitsSection />
     </>
   );
 };

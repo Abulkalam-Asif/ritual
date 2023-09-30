@@ -12,3 +12,4 @@ export { default as Footer } from "./Footer";
 export { default as FooterLinkList } from "./FooterLinkList";
 
 export { default as LoginSignupMain } from "./LoginSignupMain";
+export { default as SubscriptionBenefitsSection } from "./SubscriptionBenefitsSection";

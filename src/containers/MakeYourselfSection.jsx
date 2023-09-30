@@ -5,7 +5,7 @@ import { mysImg1, mysImg2, mysImg3, mysImg4 } from "../assets";
 const MakeYourselfSection = () => {
   return (
     <>
-      <section className="w-full px-8 font-primary lg:px-4 pb-24 border-b-2 border-b-gray-100">
+      <section className="w-full px-8 font-primary lg:px-4 pb-24">
         <div className="max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full">
           <a href="/" className="text-center">
             <H2 text={"Make Your Self"} />

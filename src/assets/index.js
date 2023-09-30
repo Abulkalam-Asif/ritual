@@ -49,3 +49,11 @@ export { default as twitterIcon } from "./socialIcons/twitter.svg";
 export { default as youtubeIcon } from "./socialIcons/youtube.svg";
 export { default as googleIcon } from "./socialIcons/google.svg";
 export { default as appleIcon } from "./socialIcons/apple.svg";
+
+// benefitIcons
+export { default as benefit1Img } from "./benefitIcons/benefit1.svg";
+export { default as benefit2Img } from "./benefitIcons/benefit2.svg";
+export { default as benefit3Img } from "./benefitIcons/benefit3.svg";
+export { default as benefit4Img } from "./benefitIcons/benefit4.svg";
+export { default as benefit5Img } from "./benefitIcons/benefit5.svg";
+export { default as benefit6Img } from "./benefitIcons/benefit6.svg";
