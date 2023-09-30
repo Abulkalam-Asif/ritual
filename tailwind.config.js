@@ -51,6 +51,7 @@ export default {
         "grid-rows": "grid-template-rows",
         bottom: "bottom",
         right: "right",
+        left: "left",
       },
     },
   },

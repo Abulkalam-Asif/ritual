@@ -24,7 +24,7 @@ const ProductCategoryCards = () => {
 
   return (
     <>
-      <section className="w-full font-primary pt-14 overflow-hidden">
+      <section className="w-full font-primary py-14 overflow-hidden">
         <div className="max-w-[1170px] flex items-center justify-between w-full mx-auto mb-10 xl:max-w-[934px] lg:max-w-[700px] md:px-4 lg:mb-6">
           <h2 className="text-2xl font-medium text-themeBlue lg:text-xl">
             Find Your Ritual

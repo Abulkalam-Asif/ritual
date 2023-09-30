@@ -13,3 +13,7 @@ export { default as FooterLinkList } from "./FooterLinkList";
 
 export { default as LoginSignupMain } from "./LoginSignupMain";
 export { default as SubscriptionBenefitsSection } from "./SubscriptionBenefitsSection";
+
+export { default as IngredientsMain } from "./IngredientsMain";
+export { default as IngredientsListView } from "./IngredientsListView";
+export { default as IngredientsMapView } from "./IngredientsMapView";
