@@ -49,6 +49,7 @@ export default {
         transform: "transform",
         "grid-rows": "grid-template-rows",
         bottom: "bottom",
+        right: "right",
       },
     },
   },

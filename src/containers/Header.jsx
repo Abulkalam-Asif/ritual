@@ -2,7 +2,7 @@ import React from "react";
 import { logo, loginIcon, cartIcon } from "../assets";
 import { HeaderButton, HeaderLink } from "../components";
 
-function Header() {
+function Header({ toggleCart }) {
   return (
     <>
       <header className="sticky top-0 left-0 right-0 w-full px-12 font-primary border-t-4 border-t-themeBlue border-b border-b-gray-300 bg-white xl:px-4 z-20">
@@ -21,7 +21,7 @@ function Header() {
               <HeaderLink>
                 <img src={loginIcon} alt="login icon" className="h-6 lg:h-5" />
               </HeaderLink>
-              <HeaderButton>
+              <HeaderButton onClick={toggleCart}>
                 <img src={cartIcon} alt="cart icon" className="h-6 lg:h-5" />
               </HeaderButton>
             </div>
