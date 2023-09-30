@@ -10,7 +10,7 @@ import {
 
 const NewsletterSection = () => {
   return (
-    <section className="w-full px-12 font-primary lg:px-4 py-16 md:py-12">
+    <section className="w-full px-12 font-primary lg:px-4 py-20 md:py-12">
       <div className="flex items-start justify-between max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full md:flex-col md:gap-y-6">
         <div className="max-w-[300px]">
           <H3 text={"We have high standards for emails too."} />

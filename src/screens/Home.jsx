@@ -6,6 +6,7 @@ import {
   Header,
   Hero,
   Introduction,
+  MakeYourselfSection,
   NewsletterSection,
   ProductCategoryCards,
 } from "../containers";
@@ -103,6 +104,7 @@ function Home() {
         </FeaturedArticleText>
       </FeaturedAtricle>
 
+      <MakeYourselfSection />
       <NewsletterSection />
       <Footer />
     </>

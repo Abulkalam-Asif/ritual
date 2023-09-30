@@ -35,6 +35,12 @@ export { default as moneyBackIcon } from "./featuredImages/moneyBack.svg";
 export { default as shippingIcon } from "./featuredImages/shipping.svg";
 export { default as deliveryIcon } from "./featuredImages/delivery.svg";
 
+// makeYourselfImages
+export { default as mysImg1 } from "./makeYourselfImages/mys1.webp";
+export { default as mysImg2 } from "./makeYourselfImages/mys2.webp";
+export { default as mysImg3 } from "./makeYourselfImages/mys3.webp";
+export { default as mysImg4 } from "./makeYourselfImages/mys4.webp";
+
 // socialIcons
 export { default as facebookIcon } from "./socialIcons/facebook.svg";
 export { default as instagramIcon } from "./socialIcons/instagram.svg";
