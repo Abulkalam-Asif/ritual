@@ -1,6 +1,7 @@
 export { default as logo } from "./logo.svg";
 export { default as arrowLeft } from "./arrowLeft.svg";
 export { default as xIcon } from "./x.svg";
+export { default as chevronIcon } from "./chevron.svg";
 
 // headerIcons
 export { default as loginIcon } from "./headerIcons/login.svg";

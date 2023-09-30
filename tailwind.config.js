@@ -45,6 +45,11 @@ export default {
       lineHeight: {
         h2: "3.375rem",
       },
+      transitionProperty: {
+        transform: "transform",
+        "grid-rows": "grid-template-rows",
+        bottom: "bottom",
+      },
     },
   },
 };

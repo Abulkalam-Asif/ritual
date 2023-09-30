@@ -1,7 +1,7 @@
 import React from "react";
 
 const CategoryCard = ({ image, text, href = "#" }) => {
-  return ( 
+  return (
     <>
       <a
         href={href}
@@ -10,7 +10,7 @@ const CategoryCard = ({ image, text, href = "#" }) => {
           <img
             src={image}
             alt="card image"
-            className="h-full w-full object-cover hover:scale-110 transition-all duration-300"
+            className="h-full w-full object-cover hover:scale-110 transition-transfrom duration-300"
           />
         </div>
         <h3 className="text-themeBlue text-lg bg-zinc-50 bg-opacity-90 text-center py-3 lg:text-sm lg:py-2">

@@ -2,6 +2,7 @@ import React from "react";
 import {
   FeaturedAtricle,
   FeaturedBundles,
+  Footer,
   Header,
   Hero,
   Introduction,
@@ -103,6 +104,7 @@ function Home() {
       </FeaturedAtricle>
 
       <NewsletterSection />
+      <Footer />
     </>
   );
 }

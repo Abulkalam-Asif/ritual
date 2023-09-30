@@ -11,7 +11,9 @@ function Header() {
             <HeaderButton>Menu</HeaderButton>
           </div>
           <div>
-            <img src={logo} alt="logo" className="h-6 lg:h-5 md:h-4" />
+            <a href="/">
+              <img src={logo} alt="logo" className="h-6 lg:h-5 md:h-4" />
+            </a>
           </div>
           <div className="flex items-center gap-x-14">
             <HeaderLink className={"md:hidden"}>Our Standards</HeaderLink>
