@@ -28,7 +28,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="w-full px-12 font-primary lg:px-4 ">
+      <footer className="w-full px-8 font-primary lg:px-4 ">
         <div className="border-t-4 py-14 grid grid-cols-4 border-t-themeBlue max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full md:flex md:flex-col md:gap-y-3">
           <div className="md:hidden">
             <a href="/">

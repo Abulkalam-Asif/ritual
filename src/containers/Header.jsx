@@ -5,7 +5,7 @@ import { HeaderButton, HeaderLink } from "../components";
 function Header({ toggleCart }) {
   return (
     <>
-      <header className="sticky top-0 left-0 right-0 w-full px-12 font-primary border-t-4 border-t-themeBlue border-b border-b-gray-300 bg-white xl:px-4 z-20">
+      <header className="sticky top-0 left-0 right-0 w-full px-8 font-primary border-t-4 border-t-themeBlue border-b border-b-gray-300 bg-white xl:px-4 z-20">
         <div className="max-w-[1170px] w-calcLargest mx-auto flex justify-between items-center text-primary xl:w-full">
           <div>
             <HeaderButton>Menu</HeaderButton>

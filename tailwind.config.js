@@ -41,6 +41,7 @@ export default {
       backgroundImage: {
         hero: "url('/src/assets/hero.webp')",
         heroMobile: "url('/src/assets/heroMobile.webp')",
+        loginSignupBg: "url('/src/assets/loginSignup.webp')",
       },
       lineHeight: {
         h2: "3.375rem",

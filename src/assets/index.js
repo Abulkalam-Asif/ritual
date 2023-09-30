@@ -47,3 +47,5 @@ export { default as instagramIcon } from "./socialIcons/instagram.svg";
 export { default as pinterestIcon } from "./socialIcons/pinterest.svg";
 export { default as twitterIcon } from "./socialIcons/twitter.svg";
 export { default as youtubeIcon } from "./socialIcons/youtube.svg";
+export { default as googleIcon } from "./socialIcons/google.svg";
+export { default as appleIcon } from "./socialIcons/apple.svg";

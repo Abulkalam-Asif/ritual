@@ -61,7 +61,7 @@ const FeaturedBundles = () => {
 
   return (
     <>
-      <section className="w-full px-12 font-primary lg:px-4 pb-20 lg:pb-12">
+      <section className="w-full px-8 font-primary lg:px-4 pb-20 lg:pb-12">
         <div className="max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full">
           <div className="flex items-center justify-between mb-8 md:mb-6">
             <H2 text={"Featured Bundles"} />

@@ -1,15 +1,10 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 import {
-  Cart,
   FeaturedAtricle,
   FeaturedBundles,
-  Footer,
-  Header,
   Hero,
   Introduction,
   MakeYourselfSection,
-  NewsletterSection,
   ProductCategoryCards,
 } from "../containers";
 import {
@@ -31,12 +26,8 @@ import {
 } from "../assets";
 
 function Home() {
-  const [isCartExpanded, setIsCartExpanded] = useState(false);
-  const toggleCart = () => setIsCartExpanded(prevState => !prevState);
   return (
     <>
-      <Header toggleCart={toggleCart} />
-      <Cart isCartExpanded={isCartExpanded} toggleCart={toggleCart} />
       <Hero />
       <ProductCategoryCards />
       <Introduction />
@@ -110,8 +101,6 @@ function Home() {
       </FeaturedAtricle>
 
       <MakeYourselfSection />
-      <NewsletterSection />
-      <Footer />
     </>
   );
 }

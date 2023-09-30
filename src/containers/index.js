@@ -10,3 +10,5 @@ export { default as MakeYourselfSection } from "./MakeYourselfSection";
 export { default as NewsletterSection } from "./NewsletterSection";
 export { default as Footer } from "./Footer";
 export { default as FooterLinkList } from "./FooterLinkList";
+
+export { default as LoginMain } from "./LoginMain";
