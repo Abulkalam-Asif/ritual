@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Home from "./screens/Home";
-import Login from "./screens/Login";
+import { Home, Login, Signup } from "./screens";
 import { Cart, Footer, Header, NewsletterSection } from "./containers";
 import { Route, Routes } from "react-router-dom";
 
@@ -15,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <NewsletterSection />
       <Footer />

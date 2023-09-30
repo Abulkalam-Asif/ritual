@@ -11,4 +11,4 @@ export { default as NewsletterSection } from "./NewsletterSection";
 export { default as Footer } from "./Footer";
 export { default as FooterLinkList } from "./FooterLinkList";
 
-export { default as LoginMain } from "./LoginMain";
+export { default as LoginSignupMain } from "./LoginSignupMain";

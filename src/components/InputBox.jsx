@@ -12,7 +12,7 @@ const InputBox = ({ label, idHtmlFor, type = "#" }) => {
         <input
           type={type}
           id={idHtmlFor}
-          className="border border-themeBlue border-opacity-60 px-4 py-2 text-themeBlue font-medium"
+          className="border border-themeBlue border-opacity-40 px-4 py-2 text-themeBlue font-medium"
         />
       </div>
     </>
