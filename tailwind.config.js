@@ -20,6 +20,7 @@ export default {
       colors: {
         themeBlue: "rgb(20, 43, 111)",
         themeYellow: "rgb(255, 214, 0)",
+        testimonial: "rgb(242, 241, 245)",
       },
       fontFamily: {
         primary: ["Roboto", "sans-serif"],

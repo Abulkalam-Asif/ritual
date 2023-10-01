@@ -64,12 +64,6 @@ export { default as woman1Img } from "./testimonialImages/woman1.webp";
 export { default as woman2Img } from "./testimonialImages/woman2.webp";
 export { default as woman3Img } from "./testimonialImages/woman3.webp";
 export { default as woman4Img } from "./testimonialImages/woman4.webp";
-export { default as woman5Img } from "./testimonialImages/woman5.webp";
-export { default as woman6Img } from "./testimonialImages/woman6.webp";
-export { default as woman7Img } from "./testimonialImages/woman7.webp";
-export { default as woman8Img } from "./testimonialImages/woman8.webp";
-export { default as woman9Img } from "./testimonialImages/woman9.webp";
-export { default as woman10Img } from "./testimonialImages/woman10.webp";
 
 // ingredientsImages
 export { default as ceratiq_Img } from "./ingredientsImages/ceratiq.webp";
