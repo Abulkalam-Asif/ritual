@@ -17,3 +17,5 @@ export { default as FeaturedBundleModal } from "./FeaturedBundleModal";
 export { default as SocialLinkItem } from "./SocialLinkItem";
 export { default as SocialLoginSignup } from "./SocialLoginSignup";
 export { default as SubscriptionBenefitsItem } from "./SubscriptionBenefitsItem";
+
+export { default as IngredientsListItem } from "./IngredientsListItem";
