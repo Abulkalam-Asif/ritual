@@ -6,6 +6,7 @@ import {
   Introduction,
   MakeYourselfSection,
   ProductCategoryCards,
+  TestimonialsCarousel,
 } from "../containers";
 import {
   FeaturedArticleImage,
@@ -99,6 +100,8 @@ function Home() {
           </ul>
         </FeaturedArticleText>
       </FeaturedAtricle>
+
+      <TestimonialsCarousel />
 
       <MakeYourselfSection />
     </>

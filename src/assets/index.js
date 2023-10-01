@@ -1,5 +1,6 @@
 export { default as logo } from "./logo.svg";
 export { default as arrowLeft } from "./arrowLeft.svg";
+export { default as arrowLeft2 } from "./arrowLeft2.svg";
 export { default as xIcon } from "./x.svg";
 export { default as chevronIcon } from "./chevron.svg";
 
@@ -57,6 +58,18 @@ export { default as benefit3Img } from "./benefitIcons/benefit3.svg";
 export { default as benefit4Img } from "./benefitIcons/benefit4.svg";
 export { default as benefit5Img } from "./benefitIcons/benefit5.svg";
 export { default as benefit6Img } from "./benefitIcons/benefit6.svg";
+
+// testimonialImages
+export { default as woman1Img } from "./testimonialImages/woman1.webp";
+export { default as woman2Img } from "./testimonialImages/woman2.webp";
+export { default as woman3Img } from "./testimonialImages/woman3.webp";
+export { default as woman4Img } from "./testimonialImages/woman4.webp";
+export { default as woman5Img } from "./testimonialImages/woman5.webp";
+export { default as woman6Img } from "./testimonialImages/woman6.webp";
+export { default as woman7Img } from "./testimonialImages/woman7.webp";
+export { default as woman8Img } from "./testimonialImages/woman8.webp";
+export { default as woman9Img } from "./testimonialImages/woman9.webp";
+export { default as woman10Img } from "./testimonialImages/woman10.webp";
 
 // ingredientsImages
 export { default as ceratiq_Img } from "./ingredientsImages/ceratiq.webp";

@@ -1,6 +1,7 @@
 import React from "react";
 import { logo, loginIcon, cartIcon } from "../assets";
 import { HeaderButton, HeaderLink } from "../components";
+import { Link } from "react-router-dom";
 
 function Header({ toggleSidebar, toggleCart }) {
   return (
@@ -11,9 +12,9 @@ function Header({ toggleSidebar, toggleCart }) {
             <HeaderButton onClick={toggleSidebar}>Menu</HeaderButton>
           </div>
           <div>
-            <a href="/">
+            <Link to="/">
               <img src={logo} alt="logo" className="h-6 lg:h-5 md:h-4" />
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-x-14">
             <HeaderLink className={"md:hidden"}>Our Standards</HeaderLink>

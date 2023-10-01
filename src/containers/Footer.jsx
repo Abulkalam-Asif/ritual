@@ -1,6 +1,7 @@
 import React from "react";
 import { logo } from "../assets";
 import FooterLinkList from "./FooterLinkList";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const shopLinks = [
@@ -31,9 +32,9 @@ const Footer = () => {
       <footer className="w-full px-8 font-primary lg:px-4 ">
         <div className="border-t-4 py-14 grid grid-cols-4 border-t-themeBlue max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full md:flex md:flex-col md:gap-y-3">
           <div className="md:hidden">
-            <a href="/">
+            <Link to="/">
               <img src={logo} alt="ritual logo" className="h-9" />
-            </a>
+            </Link>
           </div>
           <FooterLinkList title={"shop"} links={shopLinks} />
           <FooterLinkList title={"about"} links={aboutLinks} />

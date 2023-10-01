@@ -6,6 +6,7 @@ export { default as ProductCategoryCards } from "./ProductCategoryCards";
 export { default as Introduction } from "./Introduction";
 export { default as FeaturedAtricle } from "./FeaturedAtricle";
 export { default as FeaturedBundles } from "./FeaturedBundles";
+export { default as TestimonialsCarousel } from "./TestimonialsCarousel";
 export { default as MakeYourselfSection } from "./MakeYourselfSection";
 export { default as NewsletterSection } from "./NewsletterSection";
 export { default as Footer } from "./Footer";
