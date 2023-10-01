@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { xIcon } from "../assets";
-import { Link1 } from "../components";
+import SidebarLink from "../components/SidebarLink";
 
 const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
   useEffect(() => {
@@ -26,6 +26,24 @@ const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
           onClick={toggleSidebar}>
           <img src={xIcon} alt="x icon" />
         </button>
+        <div className="py-24 px-20 flex flex-col gap-y-8 items-start md:px-10">
+          <SidebarLink onClick={() => toggleSidebar()} to={"/"} text={"Home"} />
+          <SidebarLink
+            onClick={() => toggleSidebar()}
+            to={"/ingredients"}
+            text={"Ingredients"}
+          />
+          <SidebarLink
+            onClick={() => toggleSidebar()}
+            to={"/login"}
+            text={"Login"}
+          />
+          <SidebarLink
+            onClick={() => toggleSidebar()}
+            to={"/signup"}
+            text={"Signup"}
+          />
+        </div>
       </aside>
     </>
   );

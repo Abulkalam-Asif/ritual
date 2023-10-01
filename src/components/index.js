@@ -18,4 +18,5 @@ export { default as SocialLinkItem } from "./SocialLinkItem";
 export { default as SocialLoginSignup } from "./SocialLoginSignup";
 export { default as SubscriptionBenefitsItem } from "./SubscriptionBenefitsItem";
 
+export { default as SidebarLink } from "./SidebarLink";
 export { default as IngredientsListItem } from "./IngredientsListItem";

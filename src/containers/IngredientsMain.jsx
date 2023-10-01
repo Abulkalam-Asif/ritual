@@ -36,6 +36,7 @@ const IngredientsMain = () => {
           {view === "list" ? <IngredientsListView /> : <IngredientsMapView />}
         </div>
       </section>
+      <hr className="border-t-4 border-t-themeBlue w-1/6 mx-auto mt-8 mb-2" />
     </>
   );
 };
