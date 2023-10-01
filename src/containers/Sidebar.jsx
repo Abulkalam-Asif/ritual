@@ -18,7 +18,7 @@ const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
           onClick={toggleSidebar}></div>
       )}
       <aside
-        className={`max-w-md w-full font-primary max-h-screen fixed top-0 bottom-0 bg-white z-50 transition-left duration-300 md:max-w-full ${
+        className={`max-w-md w-full font-primary max-h-screen fixed overflow-y-auto top-0 bottom-0 bg-white z-50 transition-left duration-300 md:max-w-full ${
           isSidebarExpanded ? "left-0" : "-left-full"
         }`}>
         <button
@@ -35,13 +35,18 @@ const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
           />
           <SidebarLink
             onClick={() => toggleSidebar()}
+            to={"/approach"}
+            text={"Approach"}
+          />
+          <SidebarLink
+            onClick={() => toggleSidebar()}
             to={"/login"}
             text={"Login"}
           />
           <SidebarLink
             onClick={() => toggleSidebar()}
             to={"/signup"}
-            text={"Signup"}
+            text={"Sign Up"}
           />
         </div>
       </aside>

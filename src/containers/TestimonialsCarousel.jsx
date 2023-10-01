@@ -76,7 +76,7 @@ const TestimonialsCarousel = () => {
   }, [current, total]);
   return (
     <>
-      <div className="px-8 lg:px-4 py-24 font-primary bg-testimonial bg-opacity-60 lg:py-16">
+      <div className="px-8 lg:px-4 py-24 font-primary bg-themeGray bg-opacity-60 lg:py-16">
         <div className="text-center pb-12 space-y-4">
           <H2 text={"Skeptics Speak"} />
           <p className="text-themeBlue font-secondary text-lg lg:text-base">

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Home, Ingredients, Login, Signup } from "./screens";
+import { Approach, Home, Ingredients, Login, Signup } from "./screens";
 import { Cart, Footer, Header, NewsletterSection, Sidebar } from "./containers";
 import { Route, Routes } from "react-router-dom";
 
@@ -22,6 +22,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/ingredients" element={<Ingredients />} />
+        <Route path="/approach" element={<Approach />} />
       </Routes>
       <NewsletterSection />
       <Footer />

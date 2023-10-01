@@ -18,3 +18,9 @@ export { default as SubscriptionBenefitsSection } from "./SubscriptionBenefitsSe
 export { default as IngredientsMain } from "./IngredientsMain";
 export { default as IngredientsListView } from "./IngredientsListView";
 export { default as IngredientsMapView } from "./IngredientsMapView";
+
+export { default as ApproachMain } from "./ApproachMain";
+export { default as FounderSection } from "./FounderSection";
+export { default as LeadershipTeam } from "./LeadershipTeam";
+export { default as AdvisoryBoard } from "./AdvisoryBoard";
+export { default as AdvisoryCarousel } from "./AdvisoryCarousel";

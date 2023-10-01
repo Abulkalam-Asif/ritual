@@ -20,7 +20,7 @@ export default {
       colors: {
         themeBlue: "rgb(20, 43, 111)",
         themeYellow: "rgb(255, 214, 0)",
-        testimonial: "rgb(242, 241, 245)",
+        themeGray: "rgb(242, 241, 245)",
       },
       fontFamily: {
         primary: ["Roboto", "sans-serif"],
@@ -42,6 +42,8 @@ export default {
       backgroundImage: {
         hero: "url('/src/assets/hero.webp')",
         heroMobile: "url('/src/assets/heroMobile.webp')",
+        heroApproach: "url('/src/assets/heroApproach.webp')",
+        heroApproachMobile: "url('/src/assets/heroApproachMobile.webp')",
         loginSignupBg: "url('/src/assets/loginSignup.webp')",
       },
       lineHeight: {

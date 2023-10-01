@@ -20,3 +20,6 @@ export { default as SubscriptionBenefitsItem } from "./SubscriptionBenefitsItem"
 
 export { default as SidebarLink } from "./SidebarLink";
 export { default as IngredientsListItem } from "./IngredientsListItem";
+
+export { default as LeadershipItem } from "./LeadershipItem";
+export { default as AdvisoryItem } from "./AdvisoryItem";

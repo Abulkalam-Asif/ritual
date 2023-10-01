@@ -1,3 +1,4 @@
+export { default as founderImg } from "./founder.webp";
 export { default as logo } from "./logo.svg";
 export { default as arrowLeft } from "./arrowLeft.svg";
 export { default as arrowLeft2 } from "./arrowLeft2.svg";
@@ -93,3 +94,13 @@ export { default as zinc_Img } from "./ingredientsImages/zinc.webp";
 export { default as biotin_Img } from "./ingredientsImages/biotin.webp";
 export { default as boron_Img } from "./ingredientsImages/boron.webp";
 export { default as calcium_hmb_Img } from "./ingredientsImages/calcium_hmb.webp";
+
+// leadershipTeam
+export { default as leadership1Img } from "./leadershipTeam/leadership1.webp";
+export { default as leadership2Img } from "./leadershipTeam/leadership2.webp";
+
+// advisoryBoard
+export { default as advisory1Img } from "./advisoryBoard/advisory1.webp";
+export { default as advisory2Img } from "./advisoryBoard/advisory2.webp";
+export { default as advisory3Img } from "./advisoryBoard/advisory3.webp";
+export { default as advisory4Img } from "./advisoryBoard/advisory4.webp";
