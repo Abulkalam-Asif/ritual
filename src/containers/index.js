@@ -24,3 +24,7 @@ export { default as FounderSection } from "./FounderSection";
 export { default as LeadershipTeam } from "./LeadershipTeam";
 export { default as AdvisoryBoard } from "./AdvisoryBoard";
 export { default as AdvisoryCarousel } from "./AdvisoryCarousel";
+
+export { default as ShopAllMain } from "./ShopAllMain";
+export { default as ShopAllCategoriesNav } from "./ShopAllCategoriesNav";
+export { default as ShopAllProductsGrid } from "./ShopAllProductsGrid";

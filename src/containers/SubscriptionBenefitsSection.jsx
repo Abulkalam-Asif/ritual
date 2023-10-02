@@ -1,5 +1,5 @@
 import React from "react";
-import { H2, SubscriptionBenefitsItem } from "../components";
+import { SubscriptionBenefitsItem } from "../components";
 import {
   benefit1Img,
   benefit2Img,

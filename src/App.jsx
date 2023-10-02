@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Approach, Home, Ingredients, Login, Signup } from "./screens";
+import { Approach, Home, Ingredients, Login, ShopAll, Signup } from "./screens";
 import { Cart, Footer, Header, NewsletterSection, Sidebar } from "./containers";
 import { Route, Routes } from "react-router-dom";
 
@@ -19,10 +19,11 @@ function App() {
       <Cart isCartExpanded={isCartExpanded} toggleCart={toggleCart} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/shop-all" element={<ShopAll />} />
         <Route path="/ingredients" element={<Ingredients />} />
         <Route path="/approach" element={<Approach />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <NewsletterSection />
       <Footer />

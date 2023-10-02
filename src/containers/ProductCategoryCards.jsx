@@ -41,7 +41,7 @@ const ProductCategoryCards = () => {
         <div className="flex max-w-[1170px] w-full mx-auto overflow-visible xl:max-w-[934px] lg:max-w-[700px] md:px-4">
           <div
             ref={scrollRef}
-            className="product__category-scroll mx-[-1000px] overflow-x-scroll scroll-smooth"
+            className="no_scrollbar mx-[-1000px] overflow-x-scroll scroll-smooth"
             style={styles}>
             <div className="inline-flex whitespace-nowrap gap-x-8 px-[1000px] xl:gap-x-6 lg:gap-x-5 md:gap-x-3">
               <CategoryCard text={"Multivitamin"} image={multivitaminImage} />
