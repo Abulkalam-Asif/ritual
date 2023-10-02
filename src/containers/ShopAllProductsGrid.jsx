@@ -25,9 +25,10 @@ const ShopAllProductsGrid = ({
                 product.categories.includes(selectedCategory.categoryLabel),
             )
             .map(
-              ({ image, categoryLabel, title, description, price }, index) => (
+              ({ image, categoryLabel, title, description, price, itemId }) => (
                 <ShopAllProductsItem
-                  key={index}
+                  key={itemId}
+                  itemId={itemId}
                   image={image}
                   categoryLabel={categoryLabel}
                   title={title}

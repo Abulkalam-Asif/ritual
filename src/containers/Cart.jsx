@@ -1,6 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { xIcon } from "../assets";
-import { Link1 } from "../components";
+import { CartItem, Link1 } from "../components";
+import { CartContext } from "../context/CartContext";
+import { Link } from "react-router-dom";
 
 const Cart = ({ isCartExpanded, toggleCart }) => {
   useEffect(() => {
@@ -10,6 +12,9 @@ const Cart = ({ isCartExpanded, toggleCart }) => {
       document.body.style.overflow = "visible";
     }
   }, [isCartExpanded]);
+
+  const { cartItems } = useContext(CartContext);
+
   return (
     <>
       {isCartExpanded && (
@@ -21,22 +26,43 @@ const Cart = ({ isCartExpanded, toggleCart }) => {
         className={`max-w-md w-full font-primary max-h-screen fixed top-0 bottom-0 bg-white z-50 transition-right duration-300 md:max-w-full ${
           isCartExpanded ? "right-0" : "-right-full"
         }`}>
-        <button
-          className="absolute p-2 top-6 right-6 hover:opacity-60"
-          onClick={toggleCart}>
-          <img src={xIcon} alt="x icon" />
-        </button>
         <div className="h-full flex flex-col">
           <div className="flex-1 overflow-auto">
             <div className="px-10 pt-10 md:px-6 md:pt-6">
-              <h3 className="text-1.5xl font-medium text-themeBlue mb-2">
-                Your Cart
-              </h3>
-              <div className="flex flex-col items-center mt-10 gap-y-8">
-                <p className="text-center font-medium text-themeBlue">
-                  Your cart is empty. <br /> Fill it with something good
-                </p>
-                <Link1 text={"Shop All"} fontSize="text-base" />
+              <div className="flex items-center justify-between">
+                <h3 className="text-1.5xl font-medium text-themeBlue mb-2">
+                  Your Cart
+                </h3>
+                <button className="p-2 hover:opacity-60" onClick={toggleCart}>
+                  <img src={xIcon} alt="x icon" />
+                </button>
+              </div>
+              <div className="flex flex-col items-stretch mt-10 gap-y-8">
+                {cartItems.length === 0 ? (
+                  <>
+                    <p className="text-center font-medium text-themeBlue">
+                      Your cart is empty. <br /> Fill it with something good
+                    </p>
+                    <Link
+                      className="font-primary font-medium mx-auto w-fit text-themeBlue border-b-2 border-b-themeBlue transition-opacity duration-200 hover:opacity-60"
+                      to={"/shop-all"}>
+                      Shop All
+                    </Link>
+                  </>
+                ) : (
+                  cartItems.map(
+                    ({ title, image, categoryLabel, price, itemId }) => (
+                      <CartItem
+                        key={itemId}
+                        title={title}
+                        image={image}
+                        categoryLabel={categoryLabel}
+                        price={price}
+                        itemId={itemId}
+                      />
+                    ),
+                  )
+                )}
               </div>
             </div>
           </div>

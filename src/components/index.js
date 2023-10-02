@@ -25,3 +25,5 @@ export { default as LeadershipItem } from "./LeadershipItem";
 export { default as AdvisoryItem } from "./AdvisoryItem";
 export { default as ShopAllCategoryLabel } from "./ShopAllCategoryLabel";
 export { default as ShopAllProductsItem } from "./ShopAllProductsItem";
+
+export { default as CartItem } from "./CartItem";

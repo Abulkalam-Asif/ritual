@@ -3,6 +3,7 @@ export { default as logo } from "./logo.svg";
 export { default as arrowLeft } from "./arrowLeft.svg";
 export { default as arrowLeft2 } from "./arrowLeft2.svg";
 export { default as xIcon } from "./x.svg";
+export { default as deleteIcon } from "./delete.svg";
 export { default as chevronIcon } from "./chevron.svg";
 
 // headerIcons
