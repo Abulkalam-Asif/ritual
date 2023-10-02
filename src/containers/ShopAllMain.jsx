@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ShopAllCategoriesNav from "./ShopAllCategoriesNav";
 import ShopAllProductsGrid from "./ShopAllProductsGrid";
 import { shopAllP1Img, shopAllP2Img, shopAllP3Img } from "../assets";
-import { v4 as uuidv4 } from "uuid";
 
 const ShopAllMain = () => {
   const [selectedCategory, setSelectedCategory] = useState({
@@ -18,7 +17,7 @@ const ShopAllMain = () => {
       description:
         "The clinical-backed multivitamin for Women 18+ and the research-stacked Synbiotic+ for daily gut support.",
       price: 87,
-      itemId: uuidv4(),
+      itemId: "0001",
     },
     {
       image: shopAllP2Img,
@@ -28,7 +27,7 @@ const ShopAllMain = () => {
       description:
         "Research-stacked Synbiotic+ for daily gut support and hydrating HyaCera™ to help minimize wrinkles.",
       price: 108,
-      itemId: uuidv4(),
+      itemId: "0002",
     },
     {
       image: shopAllP3Img,
@@ -38,7 +37,7 @@ const ShopAllMain = () => {
       description:
         "The daily multivitamin for Women 50+ and the research-stacked Synbiotic+ for daily gut support.",
       price: 93,
-      itemId: uuidv4(),
+      itemId: "0003",
     },
     {
       image: shopAllP1Img,
@@ -48,7 +47,7 @@ const ShopAllMain = () => {
       description:
         "The daily multivitamin for Women 50+ and the research-stacked Synbiotic+ for daily gut support.",
       price: 93,
-      itemId: uuidv4(),
+      itemId: "0004",
     },
     {
       image: shopAllP2Img,
@@ -58,7 +57,7 @@ const ShopAllMain = () => {
       description:
         "The daily multivitamin for Women 50+ and the research-stacked Synbiotic+ for daily gut support.",
       price: 93,
-      itemId: uuidv4(),
+      itemId: "0005",
     },
   ];
   const categoriesDescriptions = [
