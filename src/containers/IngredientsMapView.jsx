@@ -3,7 +3,7 @@ import React from "react";
 const IngredientsMapView = () => {
   return (
     <>
-      <div>IngredientsMapView</div>
+      <div className="pt-12 text-center">MAP VIEW</div>
     </>
   );
 };

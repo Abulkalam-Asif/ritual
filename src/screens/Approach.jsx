@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AdvisoryBoard,
+  ApproachMain,
   FounderSection,
   LeadershipTeam,
   ProductCategoryCards,
@@ -17,6 +18,7 @@ const Approach = () => {
           </h1>
         </div>
       </section>
+      <ApproachMain />
       <FounderSection />
       <LeadershipTeam />
       <AdvisoryBoard />

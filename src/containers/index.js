@@ -28,3 +28,5 @@ export { default as AdvisoryCarousel } from "./AdvisoryCarousel";
 export { default as ShopAllMain } from "./ShopAllMain";
 export { default as ShopAllCategoriesNav } from "./ShopAllCategoriesNav";
 export { default as ShopAllProductsGrid } from "./ShopAllProductsGrid";
+
+export { default as ApproachMainItem } from "./ApproachMainItem";

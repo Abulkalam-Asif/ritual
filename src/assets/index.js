@@ -110,3 +110,8 @@ export { default as advisory4Img } from "./advisoryBoard/advisory4.webp";
 export { default as shopAllP1Img } from "./shopAllProducts/shopAllP1.webp";
 export { default as shopAllP2Img } from "./shopAllProducts/shopAllP2.webp";
 export { default as shopAllP3Img } from "./shopAllProducts/shopAllP3.webp";
+
+// approachImages
+export { default as approach1Img } from "./approachImages/approach1.jpg";
+export { default as approach2Img } from "./approachImages/approach2.jpg";
+export { default as approach3Img } from "./approachImages/approach3.jpg";
