@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { xIcon } from "../assets";
 import { CartItem, Link1 } from "../components";
 import { CartContext } from "../context/CartContext";
@@ -14,6 +14,9 @@ const Cart = ({ isCartExpanded, toggleCart }) => {
   }, [isCartExpanded]);
 
   const { cartItems } = useContext(CartContext);
+
+  const total = cartItems.reduce((acc, item) => acc + item.price, 0);
+  const formattedTotalPrice = total.toFixed(2);
 
   return (
     <>
@@ -70,7 +73,7 @@ const Cart = ({ isCartExpanded, toggleCart }) => {
           <div className="flex flex-col items-stretch gap-y-3 px-10 pb-10 pt-6 md:px-6">
             <div className="text-themeBlue font-medium text-sm flex justify-between items-center">
               <span>Subtotal</span>
-              <span>$00.00</span>
+              <span>${formattedTotalPrice}</span>
             </div>
             <div className="text-themeBlue font-medium text-sm flex justify-between items-center">
               <span>Shipping</span>

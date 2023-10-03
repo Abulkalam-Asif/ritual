@@ -15,8 +15,8 @@ const Hero = () => {
             </div>
           </h1>
           <div className="flex items-center gap-x-4 md:flex-col md:gap-y-2">
-            <HeroLink text={"Shop All"} />
-            <HeroLink text={"Shop Bundles"} />
+            <HeroLink to="/shop-all" text={"Shop All"} />
+            <HeroLink to="/shop-all" text={"Shop Bundles"} />
           </div>
         </div>
       </section>

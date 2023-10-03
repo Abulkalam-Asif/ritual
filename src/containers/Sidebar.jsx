@@ -30,11 +30,6 @@ const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
           <SidebarLink onClick={() => toggleSidebar()} to={"/"} text={"Home"} />
           <SidebarLink
             onClick={() => toggleSidebar()}
-            to={"/shop-all"}
-            text={"Shop All"}
-          />
-          <SidebarLink
-            onClick={() => toggleSidebar()}
             to={"/ingredients"}
             text={"Ingredients"}
           />
@@ -42,16 +37,6 @@ const Sidebar = ({ isSidebarExpanded, toggleSidebar }) => {
             onClick={() => toggleSidebar()}
             to={"/approach"}
             text={"Approach"}
-          />
-          <SidebarLink
-            onClick={() => toggleSidebar()}
-            to={"/login"}
-            text={"Login"}
-          />
-          <SidebarLink
-            onClick={() => toggleSidebar()}
-            to={"/signup"}
-            text={"Sign Up"}
           />
         </div>
       </aside>

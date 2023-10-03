@@ -6,6 +6,7 @@ import {
   Link1,
 } from "../components";
 import { featuredBImg1, featuredBImg2, featuredBImg3 } from "../assets";
+import { Link } from "react-router-dom";
 
 const FeaturedBundles = () => {
   const featuredBundlesData = [
@@ -64,7 +65,11 @@ const FeaturedBundles = () => {
         <div className="max-w-[1170px] w-calcLargest mx-auto xl:max-w-[934px] lg:max-w-[700px] md:w-full">
           <div className="flex items-center justify-between mb-8 md:mb-6">
             <H2 text={"Featured Bundles"} />
-            <Link1 text={"Shop All"} />
+            <Link
+              to={"/shop-all"}
+              className={`font-primary text-lg font-medium text-themeBlue border-b-2 border-b-themeBlue transition-opacity duration-200 hover:opacity-60 lg:text-base`}>
+              Shop All
+            </Link>
           </div>
           <div className="flex gap-x-7 md:overflow-scroll md:gap-x-4">
             {featuredBundlesData.map(

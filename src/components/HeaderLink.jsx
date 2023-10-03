@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const HeaderLink = ({ children, href = "#", className }) => {
+const HeaderLink = ({ children, to = "/", className }) => {
   return (
     <>
-      <a
-        href={href}
+      <Link
+        to={to}
         className={`relative text-themeBlue font-medium py-5 overflow-hidden after:absolute after:-bottom-2 after:left-0 after:right-0 after:bg-themeYellow after:h-1 hover:after:bottom-0 after:transition-bottom after:duration-200 ${className}`}>
         {children}
-      </a>
+      </Link>
     </>
   );
 };

@@ -22,7 +22,7 @@ function Header({ toggleSidebar, toggleCart }) {
           <div className="flex items-center gap-x-14">
             <HeaderLink className={"md:hidden"}>Our Standards</HeaderLink>
             <div className="flex items-center gap-x-6">
-              <HeaderLink>
+              <HeaderLink to="/login">
                 <img src={loginIcon} alt="login icon" className="h-6 lg:h-5" />
               </HeaderLink>
               <div className="relative">
